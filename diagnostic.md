@@ -13,14 +13,14 @@ Record your responses inside the fenced code blocks below each question.
     `campus`?
 
     ```md
-    <!-- your response here -->
+    ember -g route campus/boston
     ```
 
 1.  Suppose you have a nested route at the URL `/campus/boston`. How would you
     use the `link-to` helper to generate an appropriate link?
 
     ```md
-    <!-- your response here -->
+    {{#link-to 'campus.boston'}}Boston{{/link-to}}
     ```
 
 1.  Explain **at least** two differences between the following two route
@@ -35,7 +35,8 @@ Record your responses inside the fenced code blocks below each question.
     ```
 
     ```md
-    <!-- your response here -->
+    The second one would be used to show a specific product linked through the products view state.
+    The first one would show a list of products in the products view state.
     ```
 
 1.  Suppose we have the following route definition:
@@ -48,11 +49,12 @@ Record your responses inside the fenced code blocks below each question.
     value `'123'` inside a Route?
 
     ```md
-    <!-- your response here -->
+    It will reference route 123. This question doesn't make sense.
     ```
 
 1.  Inside a template, how do we reference data provided by a Route?
 
     ```md
-    <!-- your response here -->
+    {{#each model as |whateverrefhere|}}
+
     ```
